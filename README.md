@@ -20,37 +20,24 @@ Business and Product Analyst with a diverse professional background and a proven
 
 <br>
 <details>
-  <summary><b>📊 Loan Analysis Project (Power BI)</b></summary>
+  <summary><b>Loan Analysis Project (Power BI)</b></summary>
 
   <br>
-## Loan Analysis Project /Power BI
-
-<br>
-
-Project Description:
-
-<br>
-
-Preview:
-
-<br>
-
-Outcomes:
-
-<br>
-
-![Loan Dashboard Overview](images/Dashboard_Snapshot.png)
-
-<br>
-
-![Customer Segmentation](images/Customer_Segmentation.png)
-
-<br>
-
-![Loan Profit Analysis](images/Profit_Analysis.png)
-
-<br>
-
-![Loan Risk Analysis](images/Risk_Analysis.png)
-
+  ## Loan Analysis Project /Power BI
+  <br>
+  Project Description:
+  <br>
+  This project on a lending portfolio analysis demonstrates how raw financial/customer data can be translated into strategic insights using Power BI and DAX.
+  Preview:
+  <br>
+  ![Loan Dashboard Overview](images/Dashboard_Snapshot.png)
+  <br>
+  ![Customer Segmentation](images/Customer_Segmentation.png)
+  <br>
+  ![Loan Profit Analysis](images/Profit_Analysis.png)  
+  <br>
+  ![Loan Risk Analysis](images/Risk_Analysis.png)
+  Outcomes:
+  <br>
+  ...
 </details>
