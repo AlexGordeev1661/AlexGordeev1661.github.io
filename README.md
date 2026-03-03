@@ -36,16 +36,16 @@ Outcomes:
 
 <br>
 
-![Loan Dashboard Overview](Dashboard_Snapshot.png)
+![Loan Dashboard Overview](images/Dashboard_Snapshot.png)
 
 <br>
 
-![Customer Segmentation](Customer_Segmentation.png)
+![Customer Segmentation](images/Customer_Segmentation.png)
 
 <br>
 
-![Loan Profit Analysis](Profit_Analysis.png)
+![Loan Profit Analysis](images/Profit_Analysis.png)
 
 <br>
 
-![Loan Risk Analysis](Risk_Analysis.png)
+![Loan Risk Analysis](images/Risk_Analysis.png)
