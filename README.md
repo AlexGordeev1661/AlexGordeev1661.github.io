@@ -19,7 +19,10 @@ Business and Product Analyst with a diverse professional background and a proven
 # My Project Portfolio:
 
 <br>
+<details>
+  <summary><b>📊 Loan Analysis Project (Power BI)</b></summary>
 
+  <br>
 ## Loan Analysis Project /Power BI
 
 <br>
@@ -49,3 +52,5 @@ Outcomes:
 <br>
 
 ![Loan Risk Analysis](images/Risk_Analysis.png)
+
+</details>
