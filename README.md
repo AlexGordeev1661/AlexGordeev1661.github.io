@@ -10,7 +10,7 @@ Business and Product Analyst with a diverse professional background and a proven
 
 <br>
 
-# Loan Analysis Project /Power BI
+### Loan Analysis Project /Power BI
 
 <br>
 
