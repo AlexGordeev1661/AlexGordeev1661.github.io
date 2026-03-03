@@ -4,3 +4,9 @@ My Project Portfolio
 Project Description:
 Preview:
 Outcomes:
+
+![Loan Dashboard Overview](Dashboard_Snapshot.png)
+
+![Loan Risk Analysis](Risk_Analysis.png)
+
+![Customer Segmentation](Customer_Segmentation.png)
