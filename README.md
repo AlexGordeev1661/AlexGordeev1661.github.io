@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td width="150">
-      <img src="images/linkedin_profile_pic.jpeg" width="140" style="border-radius:50%;" />
+      <img src="images/linkedin_profile_pic.jpeg" width="140" style="border-radius:20%;" />
     </td>
     <td>
       <h1>Aleksandr Gordeev</h1>
@@ -11,9 +11,6 @@
   </tr>
 </table>
 
-
-Turn Data Into Real Business Insights For Making Better Decisions
-<br>
 # About me: 
 <br>
 Business and Product Analyst with a diverse professional background and a proven track record of supporting product development and translating complex data into actionable insights that drive strategic decisions. Proficient at Python, PowerBI, SQL, LLM and Market Research. Seeking an Analyst Individual Contributor role to grow into business intelligence and product strategy positions where I can link technical analysis and executive decision-making.
