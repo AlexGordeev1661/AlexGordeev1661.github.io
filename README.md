@@ -1,3 +1,17 @@
+<table>
+  <tr>
+    <td width="150">
+      <img src="images/linkedin_profile_pic.jpeg" width="140" style="border-radius:50%;" />
+    </td>
+    <td>
+      <h1>Aleksandr Gordeev</h1>
+      <h3>Data Analyst | Business Analyst</h3>
+      <p>Turning data into real business insights for making better decisions</p>
+    </td>
+  </tr>
+</table>
+
+
 Turn Data Into Real Business Insights For Making Better Decisions
 <br>
 # About me: 
