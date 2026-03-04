@@ -28,8 +28,10 @@ Business and Product Analyst with a diverse professional background and a proven
 
   <h3>📌 Project Description</h3>
   <p>
-  This project on lending portfolio analysis demonstrates how raw financial 
-  and customer data can be translated into strategic insights using Power BI and DAX.
+  This project on lending portfolio analysis demonstrates how raw financial and customer data can be translated into strategic insights using Power BI and DAX. 
+  </p>
+  <p>
+  Research questions:
   </p>
 
   <h3>🖥️ Dashboard Preview</h3>
@@ -41,9 +43,9 @@ Business and Product Analyst with a diverse professional background and a proven
 
   <h3>📊 Outcomes</h3>
   <ul>
-    <li>Identified key loan risk drivers</li>
-    <li>Segmented customers by income and default probability</li>
-    <li>Built interactive KPI dashboard for business decision-making</li>
+    <li>Identified customer groups that drive growth through income band, loan purpose, and state, revealing the most profitable states and regions, and that          wedding loans' profit margin is 17.6% higher than overall.</li>
+    <li>Analysed portfolio growth and profitability enablers, uncovering that grade-C loans has the best risk-adjusted return of 7.11% while only accountable for      27.9% of the portfolio, highlighting scalable opportunities for sustainable growth.</li>
+    <li>Designed and deployed an interactive Power BI dashboard integrating Portfolio at Risk, Loan YoY growth, weighted interest rate, profitability KPIs and         various graphics, enabling data-driven risk control and strategic lending decisions.</li>
   </ul>
 
 </details>
