@@ -49,3 +49,56 @@ Business and Product Analyst with a diverse professional background and a proven
   </ul>
 
 </details>
+
+<details>
+  <summary><b>✈️ British Airways Customer Review Analysis + Predictive Modelling (Python)</b></summary>
+
+  <br>
+
+  <h3>📌 Project Description</h3>
+  <p>
+  This project consists of two analytical stages: sentiment analysis of customer reviews 
+  and predictive modelling for booking completion.
+  </p>
+
+  <p>
+  <b>Stage 1 – Sentiment Analysis:</b><br>
+  Customer review data was scraped from an online source using <b>BeautifulSoup (BS4)</b>. 
+  The dataset was cleaned and preprocessed with <b>NLTK</b>, and sentiment analysis 
+  was conducted using <b>VADER Sentiment</b> to classify reviews as 
+  <i>Positive</i>, <i>Neutral</i>, or <i>Negative</i>. 
+  This enabled evaluation of overall customer satisfaction distribution.
+  </p>
+
+  <p>
+  <b>Stage 2 – Predictive Modelling:</b><br>
+  A <b>Random Forest Classification</b> model (sklearn) was deployed to predict 
+  booking completion. With an accuracy of <b>85.44%</b>, the model identified 
+  the most important factors influencing whether a customer completes a booking.
+  </p>
+
+  <h3>🖥️ Sentiment Analysis Preview</h3>
+
+  <img src="images/BA_sentiiment_table.png" width="700"/><br><br>
+  <img src="images/BA_sentiment_distribution.png" width="700"/>
+
+  <h3>📊 Predictive Model Insights</h3>
+
+  <img src="images/BA_features_viz.png" width="700"/>
+
+  <h3>📈 Outcomes</h3>
+  <ul>
+    <li>✔ Scraped and cleaned third-party review data using <b>BS4</b> and <b>NLTK</b></li>
+    <li>✔ Conducted sentiment analysis using <b>VADER</b> to evaluate customer satisfaction trends</li>
+    <li>✔ Designed and fine-tuned a <b>Random Forest</b> classifier achieving <b>85.44% accuracy</b></li>
+    <li>✔ Identified key drivers impacting booking completion decisions</li>
+    <li>✔ Visualised insights for clear communication to non-technical stakeholders</li>
+  </ul>
+
+  <h3>🛠️ Tools & Technologies</h3>
+  <p>
+  Python | BeautifulSoup (BS4) | NLTK | VADER Sentiment | Scikit-learn | 
+  Pandas | Matplotlib
+  </p>
+
+</details>
