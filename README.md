@@ -22,16 +22,13 @@ Business and Product Analyst with a diverse professional background and a proven
 
 <br>
 <details>
-  <summary><b>📊 Loan Analysis Project (Power BI)</b></summary>
+  <summary><b>📊 Loan Analysis Project | Power BI, DAX</b></summary>
 
   <br>
 
   <h3>📌 Project Description</h3>
   <p>
-  This project on lending portfolio analysis demonstrates how raw financial and customer data can be translated into strategic insights using Power BI and DAX. 
-  </p>
-  <p>
-  Research questions:
+  Analysed a lending portfolio to identify growth opportunities and risk control improvements, delivering an interactive Power BI dashboard for strategic decision-making. 
   </p>
 
   <h3>🖥️ Dashboard Preview</h3>
@@ -43,15 +40,15 @@ Business and Product Analyst with a diverse professional background and a proven
 
   <h3>📊 Outcomes</h3>
   <ul>
-    <li>Identified customer groups that drive growth through income band, loan purpose, and state, revealing the most profitable states and regions, and that          wedding loans' profit margin is 17.6% higher than overall.</li>
-    <li>Analysed portfolio growth and profitability enablers, uncovering that grade-C loans has the best risk-adjusted return of 7.11% while only accountable for      27.9% of the portfolio, highlighting scalable opportunities for sustainable growth.</li>
-    <li>Designed and deployed an interactive Power BI dashboard integrating Portfolio at Risk, Loan YoY growth, weighted interest rate, profitability KPIs and         various graphics, enabling data-driven risk control and strategic lending decisions.</li>
+    <li>Identified customer groups that drive growth through income band, loan purpose, and state, revealing the most profitable states and regions, and that wedding loans' profit margin is 17.6% higher than overall.</li>
+    <li>Uncovered grade-C loans as the best risk-adjusted return opportunity - delivering 7.11% return, while only accountable for 27.9% of the portfolio, highlighting scalable opportunities for sustainable growth.</li>
+    <li>Designed and deployed an interactive Power BI dashboard integrating Portfolio at Risk, Loan YoY growth, weighted interest rate, profitability KPIs and various graphics, enabling data-driven risk control and strategic lending decisions.</li>
   </ul>
 
 </details>
 
 <details>
-  <summary><b>✈️ British Airways Customer Review Analysis + Predictive Modelling (Python)</b></summary>
+  <summary><b>✈️ British Airways Customer Review Analysis + Predictive Modelling | Python, Sentiment Analysis, Machine Learning</b></summary>
 
   <br>
 
@@ -88,11 +85,9 @@ Business and Product Analyst with a diverse professional background and a proven
 
   <h3>📈 Outcomes</h3>
   <ul>
-    <li>Scraped and cleaned third-party review data using <b>BS4</b> and <b>NLTK</b></li>
-    <li>Conducted sentiment analysis using <b>VADER</b> to evaluate customer satisfaction trends</li>
-    <li>Designed and fine-tuned a <b>Random Forest</b> classifier achieving <b>85.44% accuracy</b></li>
-    <li>Identified key drivers impacting booking completion decisions</li>
-    <li>Visualised insights for clear communication to non-technical stakeholders</li>
+    <li>Scraped and processed third-party review data using BeautifulSoup and NLTK, conducting VADER sentiment analysis to map customer satisfaction distribution across Positive, Neutral, and Negative segments.</li>
+    <li>Built and fine-tuned a Random Forest classifier, achieving 85.44% accuracy in predicting booking completion, identifying key behavioural drivers as destination, purchase lead and length of flight to inform targeted marketing decisions.</li>
+    <li>Delivered visualised insights structured for non-technical stakeholder communication.</li>
   </ul>
 
   <h3>🛠️ Tools & Technologies</h3>
@@ -103,7 +98,7 @@ Business and Product Analyst with a diverse professional background and a proven
 
 </details>
 <details>
-  <summary><b>💳 Credit Card Transactional Analysis & Fraud Detection (Python)</b></summary>
+  <summary><b>💳 Credit Card Transactional Analysis & Fraud Detection | Python</b></summary>
 
   <br>
 
