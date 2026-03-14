@@ -54,8 +54,7 @@ Business and Product Analyst with a diverse professional background and a proven
 
   <h3>📌 Project Description</h3>
   <p>
-  This project consists of two analytical stages: sentiment analysis of customer reviews 
-  and predictive modelling for booking completion.
+  End-to-end NLP and machine learning pipeline analysing British Airways customer reviews and predicting booking completion to support marketing and customer experience strategy.
   </p>
 
   <p>
