@@ -178,7 +178,7 @@
   .p-icon.amber { background: rgba(245,166,35,0.10); border: 1px solid rgba(245,166,35,0.2); }
 
   .p-name { font-size: 14px; font-weight: 500; color: var(--text); }
-  .p-meta { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .p-meta { font-size: 12px; color: var(--text); margin-top: 2px; }
 
   .p-arrow {
     width: 24px; height: 24px; border-radius: 50%;
@@ -198,7 +198,7 @@
     padding: 1.25rem 1.5rem 1.5rem;
   }
 
-  .p-desc { font-size: 13.5px; color: var(--muted); line-height: 1.75; margin-bottom: 1rem; }
+  .p-desc { font-size: 13.5px; color: var(--text); line-height: 1.75; margin-bottom: 1rem; }
 
   /* ── Project images ── */
   .img-grid { display: grid; gap: 10px; margin: 1rem 0; }
@@ -273,7 +273,7 @@
     <img
       class="avatar"
       src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/linkedin_profile_pic.jpeg"
-      alt="Aleksandr Gordeev"
+      alt=""
       onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
     />
     <div class="avatar-fallback">AG</div>
@@ -282,7 +282,7 @@
       <p class="role">Data Analyst &nbsp;·&nbsp; Business Analyst</p>
       <div class="badges">
         <span class="badge">MSc Business Analytics — Distinction</span>
-        <span class="badge green">Open to opportunities</span>
+        <span class="badge green">Turning data into real business insights for making better decisions</span>
       </div>
     </div>
   </div>
@@ -290,7 +290,7 @@
   <!-- About -->
   <div class="section-label fade">About</div>
   <div class="about-card fade">
-    Data Analyst with a <strong>Distinction in MSc Business Analytics</strong> and a strong foundation in market research and data-driven strategic decision-making. Experienced in <strong>ETL, data cleaning &amp; preparation</strong>, structured analysis, and translating complex data into actionable insights through clear storytelling. Skilled at bridging technical findings with business strategy to drive growth.
+    <strong>Data Analyst with a Distinction in MSc Business Analytics and a strong foundation in market research and data-driven strategic decision-making. Experienced in ETL, data cleaning &amp; preparation, structured analysis, and translating complex data into actionable insights through clear storytelling. Skilled at bridging technical findings with business strategy to drive growth.</strong>
     <div class="stack-wrap">
       <span class="skill-tag">Python</span>
       <span class="skill-tag">Power BI</span>
@@ -365,7 +365,7 @@
         <div class="project-left">
           <div class="p-icon teal">✈️</div>
           <div>
-            <div class="p-name">British Airways — NLP &amp; Predictive Modelling</div>
+            <div class="p-name">British Airways — Python | NLP &amp; Predictive Modelling</div>
             <div class="p-meta">Sentiment analysis · Random Forest · Booking prediction</div>
           </div>
         </div>
@@ -411,7 +411,7 @@
         <div class="project-left">
           <div class="p-icon amber">💳</div>
           <div>
-            <div class="p-name">Credit Card Fraud Detection — 1.85M Records</div>
+            <div class="p-name">Credit Card Fraud Detection — Python | Geospatial Analysis</div>
             <div class="p-meta">Geospatial analysis · Customer segmentation · Fraud patterns</div>
           </div>
         </div>
