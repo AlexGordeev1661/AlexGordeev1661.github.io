@@ -88,12 +88,12 @@
     background: linear-gradient(90deg, var(--accent), var(--accent2), var(--accent3));
   }
   .avatar {
-    width: 96px; height: 96px; border-radius: 50%;
+    width: 126px; height: 126px; border-radius: 50%;
     border: 2px solid rgba(79,142,247,0.4);
     object-fit: cover; flex-shrink: 0;
   }
   .avatar-fallback {
-    width: 96px; height: 96px; border-radius: 50%;
+    width: 126px; height: 126px; border-radius: 50%;
     background: linear-gradient(135deg, #1a3a6e, #0f2a52);
     border: 2px solid rgba(79,142,247,0.4);
     display: none; align-items: center; justify-content: center;
