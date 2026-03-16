@@ -21,32 +21,18 @@ recommendations that drive growth.
 
 **Tech Stack:** Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
 
-<h2 align="center">🛠 Tech Stack</h2>
+## 🛠 Tech Stack
 
 <p align="center">
-
-<b>Data</b><br>
-Python • SQL
-
-<br><br>
-
-<b>Analytics</b><br>
-Statistical Analysis • Hypothesis Testing
-
-<br><br>
-
-<b>Business Intelligence</b><br>
-Power BI
-
-<br><br>
-
-<b>Machine Learning</b><br>
-Machine Learning • LLM
-
-<br><br>
-
-<b>Business Strategy</b><br>
-Market Research • Go-to-Market
+  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge)
+![Statistics](https://img.shields.io/badge/Statistical%20Analysis-grey?style=for-the-badge)
+![LLM](https://img.shields.io/badge/LLM-AI-purple?style=for-the-badge)
+![Market Research](https://img.shields.io/badge/Market%20Research-blue?style=for-the-badge)
+![Go-To-Market](https://img.shields.io/badge/Go--to--Market-orange?style=for-the-badge)
 
 </p>
 
