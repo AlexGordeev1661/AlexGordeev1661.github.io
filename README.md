@@ -273,7 +273,7 @@
     <img
       class="avatar"
       src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/linkedin_profile_pic.jpeg"
-      alt=""
+      alt="Aleksandr Gordeev"
       onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
     />
     <div class="avatar-fallback">AG</div>
@@ -282,7 +282,7 @@
       <p class="role">Data Analyst &nbsp;·&nbsp; Business Analyst</p>
       <div class="badges">
         <span class="badge">MSc Business Analytics — Distinction</span>
-        <span class="badge green">Turning data into real business insights for making better decisions</span>
+        <p class="role">Turning data into real business insights for making better decisions</p>
       </div>
     </div>
   </div>
