@@ -21,6 +21,35 @@ recommendations that drive growth.
 
 **Tech Stack:** Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
 
+<h2 align="center">🛠 Tech Stack</h2>
+
+<p align="center">
+
+<b>Data</b><br>
+Python • SQL
+
+<br><br>
+
+<b>Analytics</b><br>
+Statistical Analysis • Hypothesis Testing
+
+<br><br>
+
+<b>Business Intelligence</b><br>
+Power BI
+
+<br><br>
+
+<b>Machine Learning</b><br>
+Machine Learning • LLM
+
+<br><br>
+
+<b>Business Strategy</b><br>
+Market Research • Go-to-Market
+
+</p>
+
 # My Project Portfolio:
 
 <br>
