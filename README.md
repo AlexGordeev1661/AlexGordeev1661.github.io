@@ -1,231 +1,165 @@
-<table>
-  <tr>
-    <td width="150">
-      <img src="images/linkedin_profile_pic.jpeg" width="140" style="border-radius:20%;" />
-    </td>
-    <td>
-      <h3>Data Analyst | Business Analyst</h3>
-      <p>Turning data into real business insights for making better decisions</p>
-    </td>
-  </tr>
-</table>
+<div align="center">
 
+<img src="images/linkedin_profile_pic.jpeg" width="110" style="border-radius:50%;" />
 
-# 👨‍💼 About Me:
+## Aleksandr Gordeev
 
-Data Analyst with a Distinction in MSc Business Analytics and strong foundation in market research and data-driven strategic decision-making.  
-Experienced in ensuring high-quality data through data ETL, cleaning and preparation, conducting structured data analysis, and translating 
-complex data into actionable insights through clear and compelling storytelling. 
-Skilled in Python, Power BI, SQL and Advanced Excel with the ability to look at business needs from broader perspective and create strategic 
-recommendations that drive growth.
+### Data Analyst · Business Analyst
 
-**Tech Stack:** 
-Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
+*Turning data into real business insights for better decisions*
 
-# 🛠 **Tech Stack:**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aleksandr%20Gordeev-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aleksandr99gordeev/)
+[![Email](https://img.shields.io/badge/Email-contact.alexgordeev%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:contact.alexgordeev@gmail.com)
+![MSc](https://img.shields.io/badge/MSc%20Business%20Analytics-Distinction-2ea44f?style=flat)
 
-Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
+</div>
 
+---
 
-# My Project Portfolio:
+## 👨‍💼 About Me
+
+**Data Analyst with a Distinction in MSc Business Analytics and a strong foundation in market research and data-driven strategic decision-making. Experienced in ETL, data cleaning & preparation, structured analysis, and translating complex data into actionable insights through clear and compelling storytelling. Skilled at bridging technical findings with business strategy to drive growth.**
+
+**Tech Stack:**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+
+`Machine Learning` `Statistical Analysis & Hypothesis Testing` `NLP & Sentiment Analysis` `Geospatial Analysis` `Market Research & Go-to-Market` `LLM`
+
+---
+
+## 📁 Project Portfolio
+
+<details>
+<summary><b>📊 Loan Analysis Project &nbsp;|&nbsp; Power BI · DAX</b></summary>
 
 <br>
-<details>
-  <summary><b>📊 Loan Analysis Project | Power BI, DAX</b></summary>
 
-  <br>
+> Analysed a lending portfolio to identify growth opportunities and risk control improvements, delivering an interactive Power BI dashboard for strategic decision-making.
 
-  <h3>📌 Project Description</h3>
-  <p>
-  Analysed a lending portfolio to identify growth opportunities and risk control improvements, delivering an interactive Power BI dashboard for strategic decision-making. 
-  </p>
+### 🖥️ Dashboard Preview
 
-  <h3>🖥️ Dashboard Preview</h3>
+| Overview | Customer Segmentation |
+|---|---|
+| ![Dashboard](images/Dashboard_Snapshot.png) | ![Segmentation](images/Customer_Segmentation.png) |
 
-  <img src="images/Dashboard_Snapshot.png" width="700"/><br><br>
-  <img src="images/Customer_Segmentation.png" width="700"/><br><br>
-  <img src="images/Profit_Analysis.png" width="700"/><br><br>
-  <img src="images/Risk_Analysis.png" width="700"/>
+| Profit Analysis | Risk Analysis |
+|---|---|
+| ![Profit](images/Profit_Analysis.png) | ![Risk](images/Risk_Analysis.png) |
 
-  <h3>📊 Outcomes</h3>
-  <ul>
-    <li>Identified customer groups that drive growth through income band, loan purpose, and state, revealing the most profitable states and regions, and that wedding loans' profit margin is 17.6% higher than overall.</li>
-    <li>Uncovered grade-C loans as the best risk-adjusted return opportunity - delivering 7.11% return, while only accountable for 27.9% of the portfolio, highlighting scalable opportunities for sustainable growth.</li>
-    <li>Designed and deployed an interactive Power BI dashboard integrating Portfolio at Risk, Loan YoY growth, weighted interest rate, profitability KPIs and various graphics, enabling data-driven risk control and strategic lending decisions.</li>
-  </ul>
+### 📈 Key Outcomes
 
+- 🔍 Identified customer groups driving growth by income band, loan purpose, and state — revealing that **wedding loans carry a 17.6% higher profit margin** than the overall portfolio average.
+- 💡 Uncovered **grade-C loans as the best risk-adjusted return opportunity** — delivering a **7.11% return** while representing only 27.9% of the portfolio, highlighting scalable growth potential.
+- 📊 Designed and deployed an interactive Power BI dashboard integrating Portfolio at Risk, Loan YoY growth, weighted interest rate, and profitability KPIs — enabling data-driven risk control and strategic lending decisions.
+
+**Tools:** `Power BI` `DAX`
+
+<br>
 </details>
 
+---
+
 <details>
-  <summary><b>✈️ British Airways Customer Review Analysis + Predictive Modelling | Python, Sentiment Analysis, Machine Learning</b></summary>
+<summary><b>✈️ British Airways Customer Review Analysis + Predictive Modelling &nbsp;|&nbsp; Python · NLP · Machine Learning</b></summary>
 
-  <br>
+<br>
 
-  <h3>📌 Project Description</h3>
-  <p>
-  End-to-end NLP and machine learning pipeline analysing British Airways customer reviews and predicting booking completion to support marketing and customer experience strategy.
-  </p>
+> End-to-end NLP and machine learning pipeline analysing British Airways customer reviews and predicting booking completion to support marketing and customer experience strategy.
 
-  <p>
-  <b>Stage 1 – Sentiment Analysis:</b><br>
-  Customer review data was scraped from an online source using <b>BeautifulSoup (BS4)</b>. 
-  The dataset was cleaned and preprocessed with <b>NLTK</b>, and sentiment analysis 
-  was conducted using <b>VADER Sentiment</b> to classify reviews as 
-  <i>Positive</i>, <i>Neutral</i>, or <i>Negative</i>. 
-  This enabled the evaluation of the overall customer satisfaction distribution.
-  </p>
+**Stage 1 — Sentiment Analysis:** Customer review data was scraped using **BeautifulSoup (BS4)**, cleaned and preprocessed with **NLTK**, and classified as *Positive*, *Neutral*, or *Negative* using **VADER Sentiment**.
 
-  <p>
-  <b>Stage 2 – Predictive Modelling:</b><br>
-  A <b>Random Forest Classification</b> model (sklearn) was deployed to predict 
-  booking completion. With an accuracy of <b>85.44%</b>, the model identified 
-  the most important factors influencing whether a customer completes a booking.
-  </p>
+**Stage 2 — Predictive Modelling:** A **Random Forest Classification** model (Scikit-learn) was deployed to predict booking completion, achieving **85.44% accuracy** and identifying the key factors influencing whether a customer completes a booking.
 
-  <h3>🖥️ Sentiment Analysis Preview</h3>
+### 🖥️ Sentiment Analysis Preview
 
-  <img src="images/BA_sentiiment_table.png" width="700"/><br><br>
-  <img src="images/BA_sentiment_distribution.png" width="700"/>
+| Sentiment Table | Sentiment Distribution |
+|---|---|
+| ![Table](images/BA_sentiiment_table.png) | ![Distribution](images/BA_sentiment_distribution.png) |
 
-  <h3>📊 Predictive Model Insights</h3>
+### 📊 Predictive Model Insights
 
-  <img src="images/BA_features_viz.png" width="700"/>
+![Features](images/BA_features_viz.png)
 
-  <h3>📈 Outcomes</h3>
-  <ul>
-    <li>Scraped and processed third-party review data using BeautifulSoup and NLTK, conducting VADER sentiment analysis to map customer satisfaction distribution across Positive, Neutral, and Negative segments.</li>
-    <li>Built and fine-tuned a Random Forest classifier, achieving 85.44% accuracy in predicting booking completion, identifying key behavioural drivers as destination, purchase lead and length of flight to inform targeted marketing decisions.</li>
-    <li>Delivered visualised insights structured for non-technical stakeholder communication.</li>
-  </ul>
+### 📈 Key Outcomes
 
-  <h3>🛠️ Tools & Technologies</h3>
-  <p>
-  Python | BeautifulSoup (BS4) | NLTK | VADER Sentiment | Scikit-learn | 
-  Pandas | Matplotlib
-  </p>
+- 🔍 Scraped and processed third-party review data using BeautifulSoup & NLTK — conducting VADER sentiment analysis to map customer satisfaction distribution across Positive, Neutral, and Negative segments.
+- 🤖 Built and fine-tuned a Random Forest classifier achieving **85.44% accuracy** in predicting booking completion — identifying **destination, purchase lead, and length of flight** as key behavioural drivers to inform targeted marketing.
+- 📊 Delivered visualised insights structured for non-technical stakeholder communication.
 
-</details>
-<details>
-  <summary><b>💳 Credit Card Transactional Analysis & Fraud Detection | Python</b></summary>
+**Tools:** `Python` `BeautifulSoup` `NLTK` `VADER Sentiment` `Scikit-learn` `Pandas` `Matplotlib`
 
-  <br>
-
-  <h3>📌 Project Description</h3>
-
-  <p>
-  This project analyses a large credit card transaction dataset containing over 
-  <b>1.85 million records</b>, including transaction timestamps, amounts, merchant details,
-  customer demographics, and geospatial information.
-  </p>
-
-  <p>
-  The dataset was sourced from <b>Kaggle</b>, then cleaned and transformed using Python 
-  for exploratory data analysis and fraud detection investigation.
-  </p>
-
-  <p><b>Main objectives:</b></p>
-
-  <ul>
-    <li>Identify customer segments and transaction behaviour trends to support product and marketing decisions.</li>
-    <li>Analyse fraudulent transaction patterns and determine the main states and merchants associated with fraud.</li>
-  </ul>
-
-
-  <h3>👥 Customer Segmentation Analysis</h3>
-
-  <p><b>Customer segmentation by age group and spending behaviour:</b></p>
-
-  <table>
-    <tr>
-      <td><img src="images/FD_segm_age.png" width="420"/></td>
-      <td><img src="images/FD_spent_age.png" width="420"/></td>
-    </tr>
-  </table>
-
-  <br>
-
-  <p><b>Customer segmentation by purchase category:</b></p>
-
-  <img src="images/FD_segm_category.png" width="700"/>
-
-
-  <h3>💰 Transaction Spending Analysis</h3>
-
-  <p><b>Average transaction amount per purchase category:</b></p>
-
-  <img src="images/FD_avgspent_category.png" width="700"/>
-
-  <br>
-
-  <p><b>Total spending by job title (Top-10) and job roles with the highest average transaction value:</b></p>
-
-  <table>
-    <tr>
-      <td><img src="images/FD_totamount_byjob.png" width="420"/></td>
-      <td><img src="images/FD_jobs_avgspent.png" width="420"/></td>
-    </tr>
-  </table>
-
-
-  <h3>🌍 Geospatial Transaction Analysis</h3>
-
-  <p><b>Transaction volume distribution by US state:</b></p>
-
-  <img src="images/FD_trans_map.png" width="700"/>
-
-
-  <h3>🚨 Fraud Detection Analysis</h3>
-
-  <p>
-  Fraudulent transaction activity was analysed geographically and across merchants 
-  and customers to identify potential risk areas and suspicious behaviour patterns.
-  </p>
-
-  <p><b>Fraud transaction volume by location:</b></p>
-
-  <img src="images/FD_fraud_map.png" width="700"/>
-
-  <br>
-
-  <p><b>Merchants and customers with the highest fraudulent transaction counts:</b></p>
-
-  <table>
-    <tr>
-      <td><img src="images/FD_fraud_merchants.png" width="420"/></td>
-      <td><img src="images/FD_fraud_names.png" width="420"/></td>
-    </tr>
-  </table>
-
-
-  <h3>📈 Outcomes</h3>
-
-  <ul>
-    <li>Identified business growth opportunities by delivering clear transaction insights and conducting a complex customer segmentation.</li>
-    <li>Analysed transaction geographic distribution and mapped spending patterns along potential fraud risk regions and merchants.</li>
-  </ul>
-
-
-  <h3>🛠️ Tools & Technologies</h3>
-
-  <p>
-  Python | Pandas | NumPy | Matplotlib | Seaborn | Geospatial Analysis | Data Visualisation
-  </p>
-
+<br>
 </details>
 
-# 📬 **Contact Me:**
+---
 
-<p>
-<strong>LinkedIn:</strong> 
-<a href="https://www.linkedin.com/in/aleksandr99gordeev/?skipRedirect=true" target="_blank">
-Aleksandr Gordeev
-</a>
-<br><br>
-<strong>Email:</strong> 
-<a href="mailto:contact.alexgordeev@gmail.com">
-contact.alexgordeev@gmail.com
-</a>
-<br><br>
-<strong>Phone:</strong> 
-+44 7521 469593
-</p>
+<details>
+<summary><b>💳 Credit Card Transactional Analysis & Fraud Detection &nbsp;|&nbsp; Python · Geospatial Analysis</b></summary>
+
+<br>
+
+> Analysed a large credit card transaction dataset of **1.85 million records** — including timestamps, amounts, merchant details, customer demographics, and geospatial data — to surface fraud risk areas and customer behaviour trends.
+
+**Main objectives:**
+- Identify customer segments and transaction behaviour trends to support product and marketing decisions.
+- Analyse fraudulent transaction patterns and determine the main states and merchants associated with fraud.
+
+### 👥 Customer Segmentation
+
+| Segmentation by Age | Spending by Age |
+|---|---|
+| ![Age Seg](images/FD_segm_age.png) | ![Age Spend](images/FD_spent_age.png) |
+
+![Category Segmentation](images/FD_segm_category.png)
+
+### 💰 Transaction Spending Analysis
+
+![Avg Spend by Category](images/FD_avgspent_category.png)
+
+| Total Spend by Job | Avg Spend by Job |
+|---|---|
+| ![Job Total](images/FD_totamount_byjob.png) | ![Job Avg](images/FD_jobs_avgspent.png) |
+
+### 🌍 Geospatial Transaction Analysis
+
+![Transaction Map](images/FD_trans_map.png)
+
+### 🚨 Fraud Detection Analysis
+
+![Fraud Map](images/FD_fraud_map.png)
+
+| Top Fraud Merchants | Top Fraud Customers |
+|---|---|
+| ![Merchants](images/FD_fraud_merchants.png) | ![Customers](images/FD_fraud_names.png) |
+
+### 📈 Key Outcomes
+
+- 🔍 Identified business growth opportunities through complex customer segmentation by age group, job role, and purchase category — revealing distinct spending behaviour patterns.
+- 🗺️ Mapped geographic transaction distribution across US states and overlaid fraud risk regions, identifying the merchants and customers with the highest fraudulent transaction counts.
+
+**Tools:** `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Geospatial Analysis`
+
+<br>
+</details>
+
+---
+
+## 📬 Contact
+
+| | |
+|---|---|
+| 🔗 **LinkedIn** | [Aleksandr Gordeev](https://www.linkedin.com/in/aleksandr99gordeev/) |
+| 📧 **Email** | [contact.alexgordeev@gmail.com](mailto:contact.alexgordeev@gmail.com) |
+| 📞 **Phone** | +44 7521 469593 |
+
+---
+
+<div align="center">
+  <sub>Built with data, driven by insight.</sub>
+</div>
