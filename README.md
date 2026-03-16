@@ -22,11 +22,10 @@ recommendations that drive growth.
 **Tech Stack:** 
 Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
 
-<h3 align="center">🛠 Tech Stack:</h3>
+# 🛠 **Tech Stack:**
 
-<p align="center">
 Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
-</p>
+
 
 # My Project Portfolio:
 
