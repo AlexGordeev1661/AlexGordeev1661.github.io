@@ -282,7 +282,7 @@
       <p class="role">Data Analyst &nbsp;·&nbsp; Business Analyst</p>
       <div class="badges">
         <span class="badge">MSc Business Analytics — Distinction</span>
-        <p class="role">Turning data into real business insights for making better decisions</p>
+        <p class="role"><strong>Turning data into real business insights for making better decisions</strong></p>
       </div>
     </div>
   </div>
