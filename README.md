@@ -216,22 +216,16 @@ Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypoth
 # 📬 **Contact Me:**
 
 <p>
-
 <strong>LinkedIn:</strong> 
 <a href="https://www.linkedin.com/in/aleksandr99gordeev/?skipRedirect=true" target="_blank">
 Aleksandr Gordeev
 </a>
-
 <br><br>
-
 <strong>Email:</strong> 
 <a href="mailto:contact.alexgordeev@gmail.com">
 contact.alexgordeev@gmail.com
 </a>
-
 <br><br>
-
 <strong>Phone:</strong> 
 +44 7521 469593
-
 </p>
