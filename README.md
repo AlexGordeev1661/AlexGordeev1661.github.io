@@ -35,7 +35,6 @@
     overflow-x: hidden;
   }
 
-  /* ── Animated background ── */
   body::before {
     content: '';
     position: fixed; inset: 0; z-index: 0;
@@ -46,7 +45,6 @@
     pointer-events: none;
   }
 
-  /* subtle grid texture */
   body::after {
     content: '';
     position: fixed; inset: 0; z-index: 0;
@@ -64,7 +62,6 @@
     padding: 3rem 1.5rem 5rem;
   }
 
-  /* ── Fade-in animation ── */
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: translateY(0); }
@@ -92,20 +89,23 @@
     background: linear-gradient(90deg, var(--accent), var(--accent2), var(--accent3));
   }
   .avatar {
-    width: 76px; height: 76px; border-radius: 50%;
+    width: 96px; height: 96px; border-radius: 50%;
+    border: 2px solid rgba(79,142,247,0.4);
+    object-fit: cover; flex-shrink: 0;
+  }
+  .avatar-fallback {
+    width: 96px; height: 96px; border-radius: 50%;
     background: linear-gradient(135deg, #1a3a6e, #0f2a52);
-    border: 1.5px solid rgba(79,142,247,0.4);
-    display: flex; align-items: center; justify-content: center;
+    border: 2px solid rgba(79,142,247,0.4);
+    display: none; align-items: center; justify-content: center;
     font-family: var(--serif); font-size: 24px; color: #90b8f8;
-    flex-shrink: 0; letter-spacing: 1px;
+    flex-shrink: 0;
   }
   .header-text h1 {
     font-family: var(--serif); font-size: 26px; font-weight: 400;
     letter-spacing: -0.3px; margin-bottom: 4px;
   }
-  .header-text .role {
-    font-size: 14px; color: var(--muted); margin-bottom: 10px;
-  }
+  .header-text .role { font-size: 14px; color: var(--muted); margin-bottom: 10px; }
   .badges { display: flex; flex-wrap: wrap; gap: 6px; }
   .badge {
     font-size: 11px; font-weight: 500; padding: 3px 10px;
@@ -127,10 +127,7 @@
     display: flex; align-items: center; gap: 10px;
     margin-bottom: 1rem;
   }
-  .section-label::after {
-    content: ''; flex: 1; height: 1px;
-    background: var(--border);
-  }
+  .section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
 
   /* ── About ── */
   .about-card {
@@ -142,7 +139,6 @@
     font-size: 14.5px; color: var(--muted); line-height: 1.8;
   }
   .about-card strong { color: var(--text); font-weight: 500; }
-
   .stack-wrap { margin-top: 1.25rem; display: flex; flex-wrap: wrap; gap: 7px; }
   .skill-tag {
     font-size: 12px; font-weight: 400; padding: 4px 12px;
@@ -194,10 +190,9 @@
   }
   .project-card.open .p-arrow { transform: rotate(180deg); background: rgba(79,142,247,0.12); color: var(--accent); }
 
-  /* Smooth accordion */
   .project-body {
     max-height: 0; overflow: hidden;
-    transition: max-height 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   }
   .project-body-inner {
     border-top: 1px solid var(--border);
@@ -206,10 +201,28 @@
 
   .p-desc { font-size: 13.5px; color: var(--muted); line-height: 1.75; margin-bottom: 1rem; }
 
+  /* ── Project images ── */
+  .img-grid { display: grid; gap: 10px; margin: 1rem 0; }
+  .img-grid.cols-2 { grid-template-columns: 1fr 1fr; }
+  .img-grid.cols-1 { grid-template-columns: 1fr; }
+
+  .img-grid img {
+    width: 100%; border-radius: 10px;
+    border: 1px solid var(--border);
+    object-fit: cover; display: block;
+    transition: border-color 0.2s, transform 0.25s;
+  }
+  .img-grid img:hover { border-color: var(--border-hover); transform: scale(1.015); }
+
+  .img-label {
+    font-size: 11px; color: var(--muted); text-align: center;
+    margin-top: 5px; margin-bottom: 8px; letter-spacing: 0.04em;
+  }
+
   .outcomes-title {
     font-size: 11px; font-weight: 500; letter-spacing: 0.08em;
     text-transform: uppercase; color: var(--muted);
-    margin-bottom: 0.6rem;
+    margin: 1rem 0 0.6rem;
   }
   .outcomes { list-style: none; display: flex; flex-direction: column; gap: 8px; }
   .outcomes li {
@@ -221,11 +234,8 @@
 
   .tools-row { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 1rem; }
   .tool {
-    font-size: 11px; padding: 3px 9px;
-    border-radius: 6px;
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    color: var(--muted);
+    font-size: 11px; padding: 3px 9px; border-radius: 6px;
+    background: var(--surface2); border: 1px solid var(--border); color: var(--muted);
   }
 
   /* ── Contact ── */
@@ -252,6 +262,7 @@
     .header { flex-direction: column; text-align: center; }
     .badges { justify-content: center; }
     .contact-card { flex-direction: column; }
+    .img-grid.cols-2 { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -260,7 +271,13 @@
 
   <!-- Header -->
   <div class="header fade">
-    <div class="avatar">AG</div>
+    <img
+      class="avatar"
+      src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/linkedin_profile_pic.jpeg"
+      alt="Aleksandr Gordeev"
+      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+    />
+    <div class="avatar-fallback">AG</div>
     <div class="header-text">
       <h1>Aleksandr Gordeev</h1>
       <p class="role">Data Analyst &nbsp;·&nbsp; Business Analyst</p>
@@ -293,7 +310,7 @@
   <div class="section-label fade">Projects</div>
   <div class="projects fade">
 
-    <!-- Project 1 -->
+    <!-- Project 1: Loan Analysis -->
     <div class="project-card" id="p1">
       <div class="project-trigger" onclick="toggle('p1')">
         <div class="project-left">
@@ -308,6 +325,28 @@
       <div class="project-body" id="p1-body">
         <div class="project-body-inner">
           <p class="p-desc">Analysed a lending portfolio to identify growth opportunities and risk control improvements, delivering an interactive Power BI dashboard for strategic decision-making.</p>
+
+          <div class="img-grid cols-1">
+            <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/Dashboard_Snapshot.png" alt="Dashboard Overview" />
+          </div>
+          <p class="img-label">Dashboard overview</p>
+
+          <div class="img-grid cols-2">
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/Customer_Segmentation.png" alt="Customer Segmentation" />
+              <p class="img-label">Customer segmentation</p>
+            </div>
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/Profit_Analysis.png" alt="Profit Analysis" />
+              <p class="img-label">Profit analysis</p>
+            </div>
+          </div>
+
+          <div class="img-grid cols-1">
+            <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/Risk_Analysis.png" alt="Risk Analysis" />
+          </div>
+          <p class="img-label">Risk analysis</p>
+
           <div class="outcomes-title">Key outcomes</div>
           <ul class="outcomes">
             <li>Identified most profitable states and customer groups by income band and loan purpose — wedding loans showed a <strong>17.6% higher profit margin</strong> than the overall portfolio.</li>
@@ -321,7 +360,7 @@
       </div>
     </div>
 
-    <!-- Project 2 -->
+    <!-- Project 2: British Airways -->
     <div class="project-card" id="p2">
       <div class="project-trigger" onclick="toggle('p2')">
         <div class="project-left">
@@ -336,6 +375,23 @@
       <div class="project-body" id="p2-body">
         <div class="project-body-inner">
           <p class="p-desc">End-to-end NLP and machine learning pipeline analysing British Airways customer reviews and predicting booking completion to support marketing and customer experience strategy.</p>
+
+          <div class="img-grid cols-2">
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/BA_sentiiment_table.png" alt="Sentiment Table" />
+              <p class="img-label">Sentiment table</p>
+            </div>
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/BA_sentiment_distribution.png" alt="Sentiment Distribution" />
+              <p class="img-label">Sentiment distribution</p>
+            </div>
+          </div>
+
+          <div class="img-grid cols-1">
+            <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/BA_features_viz.png" alt="Feature Importance" />
+          </div>
+          <p class="img-label">Predictive model — feature importance</p>
+
           <div class="outcomes-title">Key outcomes</div>
           <ul class="outcomes">
             <li>Scraped and processed third-party review data with BeautifulSoup &amp; NLTK, mapping satisfaction distribution across positive, neutral, and negative segments using VADER sentiment.</li>
@@ -350,7 +406,7 @@
       </div>
     </div>
 
-    <!-- Project 3 -->
+    <!-- Project 3: Fraud Detection -->
     <div class="project-card" id="p3">
       <div class="project-trigger" onclick="toggle('p3')">
         <div class="project-left">
@@ -365,6 +421,60 @@
       <div class="project-body" id="p3-body">
         <div class="project-body-inner">
           <p class="p-desc">Analysed a large credit card transaction dataset of <strong>1.85 million records</strong> including transaction timestamps, amounts, merchant details, customer demographics, and geospatial information to surface fraud risk areas and customer behaviour trends.</p>
+
+          <div class="img-grid cols-2">
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_segm_age.png" alt="Segmentation by Age" />
+              <p class="img-label">Segmentation by age</p>
+            </div>
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_spent_age.png" alt="Spending by Age" />
+              <p class="img-label">Spending by age</p>
+            </div>
+          </div>
+
+          <div class="img-grid cols-1">
+            <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_segm_category.png" alt="Segmentation by Category" />
+          </div>
+          <p class="img-label">Segmentation by purchase category</p>
+
+          <div class="img-grid cols-1">
+            <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_avgspent_category.png" alt="Avg Spend by Category" />
+          </div>
+          <p class="img-label">Average spend by category</p>
+
+          <div class="img-grid cols-2">
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_totamount_byjob.png" alt="Total Spend by Job" />
+              <p class="img-label">Total spend by job title</p>
+            </div>
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_jobs_avgspent.png" alt="Avg Spend by Job" />
+              <p class="img-label">Avg spend by job role</p>
+            </div>
+          </div>
+
+          <div class="img-grid cols-1">
+            <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_trans_map.png" alt="Transaction Map" />
+          </div>
+          <p class="img-label">Transaction volume by US state</p>
+
+          <div class="img-grid cols-1">
+            <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_fraud_map.png" alt="Fraud Map" />
+          </div>
+          <p class="img-label">Fraud transaction volume by location</p>
+
+          <div class="img-grid cols-2">
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_fraud_merchants.png" alt="Top Fraud Merchants" />
+              <p class="img-label">Top fraud merchants</p>
+            </div>
+            <div>
+              <img src="https://raw.githubusercontent.com/AlexGordeev1661/AlexGordeev1661.github.io/main/images/FD_fraud_names.png" alt="Top Fraud Customers" />
+              <p class="img-label">Top fraud customers</p>
+            </div>
+          </div>
+
           <div class="outcomes-title">Key outcomes</div>
           <ul class="outcomes">
             <li>Identified business growth opportunities through complex customer segmentation by age group, job role, and purchase category — revealing key spending behaviour patterns.</li>
