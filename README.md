@@ -4,7 +4,6 @@
       <img src="images/linkedin_profile_pic.jpeg" width="140" style="border-radius:20%;" />
     </td>
     <td>
-      <h1>Aleksandr Gordeev</h1>
       <h3>Data Analyst | Business Analyst</h3>
       <p>Turning data into real business insights for making better decisions</p>
     </td>
@@ -14,9 +13,13 @@
 
 # 👨‍💼 About Me:
 
-Business and Product Analyst with a diverse professional background and a proven track record of supporting product development and translating complex data into actionable insights that drive strategic decisions. Proficient at Python, PowerBI, SQL, LLM and Market Research. Seeking an Analyst Individual Contributor role to grow into business intelligence and product strategy positions where I can link technical analysis and executive decision-making.
+Data Analyst with a Distinction in MSc Business Analytics and strong foundation in market research and data-driven strategic decision-making.  
+Experienced in ensuring high-quality data through data ETL, cleaning and preparation, conducting structured data analysis, and translating 
+complex data into actionable insights through clear and compelling storytelling. 
+Skilled in Python, Power BI, SQL and Advanced Excel with the ability to look at business needs from broader perspective and create strategic 
+recommendations that drive growth.
 
-**Tech Stack:** Python | Power BI | SQL | LLM | Market Research
+**Tech Stack:** Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
 
 # My Project Portfolio:
 
