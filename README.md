@@ -27,11 +27,11 @@ recommendations that drive growth.
   
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge)
 ![Statistics](https://img.shields.io/badge/Statistical%20Analysis-grey?style=for-the-badge)
 ![LLM](https://img.shields.io/badge/LLM-AI-purple?style=for-the-badge)
-![Market Research](https://img.shields.io/badge/Market%20Research-blue?style=for-the-badge)
+![Market Research](https://img.shields.io/badge/Market%20Research-orange?style=for-the-badge)
 ![Go-To-Market](https://img.shields.io/badge/Go--to--Market-orange?style=for-the-badge)
 
 </p>
