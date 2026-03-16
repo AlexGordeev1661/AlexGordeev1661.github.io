@@ -19,15 +19,13 @@ complex data into actionable insights through clear and compelling storytelling.
 Skilled in Python, Power BI, SQL and Advanced Excel with the ability to look at business needs from broader perspective and create strategic 
 recommendations that drive growth.
 
-**Tech Stack:** Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
+**Tech Stack:** 
+Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
 
-<h2>🛠 Tech Stack</h2>
+<h3 align="center">🛠 **Tech Stack:**</h3>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-<img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge">
-<img src="https://img.shields.io/badge/Statistics-Analysis-orange?style=for-the-badge">
+<p align="center">
+Python | Power BI | SQL | LLM | Machine Learning | Statistical Analysis & Hypothesis Testing | Market Research & Go-to-Market
 </p>
 
 # My Project Portfolio:
